@@ -8,8 +8,10 @@ import Footer from "./components/Footer";
 import "./lib/styles/home.css";
 import { routers } from "@/app/routers/index";
 import homeLanguage from "@/app/lib/lang/homeLanguage.json";
+import { information } from "@/app/services/infomation.service";
 
 export default function Home() {
+  const [info, setInfo] = useState(null);
   const [lang, setLang] = useState("en");
 
   // Đọc ngôn ngữ từ localStorage
@@ -23,6 +25,17 @@ export default function Home() {
       if (updatedLang) setLang(updatedLang);
     };
     window.addEventListener("storage", handleStorageChange);
+
+    const fetchInformation = async () => {
+      try {
+        const res = await information();
+        setInfo(res.data);
+      } catch (error) {
+        console.error(error);
+      }
+    };
+
+    fetchInformation();
 
     // cleanup
     return () => window.removeEventListener("storage", handleStorageChange);
@@ -231,7 +244,8 @@ export default function Home() {
           </div>
         </section>
       </main>
-      <Footer />
+      {/* <Footer /> */}
+      <Footer info={info} />
     </>
   );
 }

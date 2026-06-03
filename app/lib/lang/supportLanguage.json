@@ -1,67 +1,137 @@
 {
   "en": {
-    "title": "Support Center",
-    "description": "Welcome to the Zen Home Spa Support Center. Find help with your app-related queries, from booking issues to account management.",
-    "sections": {
-      "contactUs": {
-        "title": "Contact Us",
-        "content": "If you have questions or need assistance, our support team is here to help. Reach out to us via email for prompt assistance.",
-        "email": "support@serenespa.com"
+    "header": {
+      "title": "Need Help?",
+      "subtitle": "We're here to support your booking experience"
+    },
+    "contactMethods": {
+      "title": "Contact Methods",
+      "email": {
+        "label": "📧 Email support",
+        "address": "app.zenhome.spa@gmail.com"
       },
-      "faq": {
-        "title": "Frequently Asked Questions",
-        "content": "Below are answers to some common questions to help you get started or resolve issues quickly.",
-        "items": {
-          "booking": {
-            "title": "How do I book an appointment?",
-            "content": "You can book an appointment directly through the Zen Home Spa app by selecting your preferred service, date, and time."
-          },
-          "account": {
-            "title": "How do I update my account information?",
-            "content": "Go to the 'Profile' section in the app to update your personal details, such as name, email, or phone number."
-          },
-          "payment": {
-            "title": "What payment methods are accepted?",
-            "content": "We accept major credit cards, debit cards, and select digital payment methods available in the app."
-          }
+      "hotline": {
+        "label": "📞 Hotline",
+        "number": "+84 28 7300 1234"
+      },
+      "chat": {
+        "label": "💬 In-app chat",
+        "description": "Chat with us directly from the app"
+      },
+      "hours": "⏱ Support hours: Mon–Sun, 8:00–22:00 GMT+7"
+    },
+    "quickHelp": {
+      "title": "Quick Help / FAQ",
+      "items": [
+        {
+          "question": "How do I book a service?",
+          "answer": "Open the app, choose a service, select date and time, and confirm your booking."
+        },
+        {
+          "question": "How do I cancel or reschedule?",
+          "answer": "Go to 'My Bookings', select the booking and choose cancel or reschedule (fees may apply based on policy)."
+        },
+        {
+          "question": "How does wallet payment work?",
+          "answer": "You can top up your wallet via credit card or bank transfer and use wallet balance for fast checkout."
+        },
+        {
+          "question": "What if technician doesn't show up?",
+          "answer": "Please contact support immediately through hotline or chat, we will resolve the issue."
+        },
+        {
+          "question": "How do I get a refund?",
+          "answer": "Refund requests are processed within 5-7 business days; please contact support with your booking details."
         }
+      ]
+    },
+    "bookingIssues": {
+      "title": "Booking Issues",
+      "items": [
+        "Booking not confirmed",
+        "Technician delayed",
+        "Wrong service received",
+        "Payment deducted but no booking"
+      ],
+      "note": "If you experience any of these issues, please reach out to our support team immediately with your booking ID."
+    },
+    "emergencyNote": "For urgent booking issues happening within the next 2 hours, please contact hotline immediately.",
+    "links": {
+      "privacyPolicy": {
+        "text": "Privacy Policy",
+        "url": "/privacy-policy"
       },
-      "liveSupport": {
-        "title": "Live Support",
-        "content": "For urgent issues, our live chat support is available within the app during business hours (9 AM - 6 PM, Monday to Friday)."
+      "termsOfService": {
+        "text": "Terms of Service",
+        "url": "/terms"
       }
     }
   },
   "vi": {
-    "title": "Trung tâm hỗ trợ",
-    "description": "Chào mừng bạn đến với Trung tâm Hỗ trợ Zen Home Spa. Tìm kiếm sự hỗ trợ cho các thắc mắc liên quan đến ứng dụng, từ vấn đề đặt lịch đến quản lý tài khoản.",
-    "sections": {
-      "contactUs": {
-        "title": "Liên hệ với chúng tôi",
-        "content": "Nếu bạn có câu hỏi hoặc cần hỗ trợ, đội ngũ hỗ trợ của chúng tôi luôn sẵn sàng. Liên hệ qua email để được hỗ trợ nhanh chóng.",
-        "email": "hotro@serenespa.com"
+    "header": {
+      "title": "Cần trợ giúp?",
+      "subtitle": "Chúng tôi luôn sẵn sàng hỗ trợ trải nghiệm đặt lịch của bạn"
+    },
+    "contactMethods": {
+      "title": "Phương thức liên hệ",
+      "email": {
+        "label": "📧 Hỗ trợ qua email",
+        "address": "app.zenhome.spa@gmail.com"
       },
-      "faq": {
-        "title": "Câu hỏi thường gặp",
-        "content": "Dưới đây là câu trả lời cho một số câu hỏi phổ biến để giúp bạn bắt đầu hoặc giải quyết vấn đề nhanh chóng.",
-        "items": {
-          "booking": {
-            "title": "Làm thế nào để đặt lịch hẹn?",
-            "content": "Bạn có thể đặt lịch hẹn trực tiếp qua ứng dụng Zen Home Spa bằng cách chọn dịch vụ, ngày và giờ mong muốn."
-          },
-          "account": {
-            "title": "Làm thế nào để cập nhật thông tin tài khoản?",
-            "content": "Vào phần 'Hồ sơ' trong ứng dụng để cập nhật thông tin cá nhân như tên, email hoặc số điện thoại."
-          },
-          "payment": {
-            "title": "Phương thức thanh toán nào được chấp nhận?",
-            "content": "Chúng tôi chấp nhận các loại thẻ tín dụng, thẻ ghi nợ và một số phương thức thanh toán số có sẵn trong ứng dụng."
-          }
+      "hotline": {
+        "label": "📞 Đường dây nóng",
+        "number": "+84 28 7300 1234"
+      },
+      "chat": {
+        "label": "💬 Trò chuyện trong ứng dụng",
+        "description": "Trò chuyện trực tiếp với chúng tôi qua ứng dụng"
+      },
+      "hours": "⏱ Giờ hỗ trợ: Thứ Hai–Chủ Nhật, 8:00–22:00 GMT+7"
+    },
+    "quickHelp": {
+      "title": "Trợ giúp nhanh / Câu hỏi thường gặp",
+      "items": [
+        {
+          "question": "Làm thế nào để đặt dịch vụ?",
+          "answer": "Mở ứng dụng, chọn dịch vụ, chọn ngày và giờ, sau đó xác nhận đặt lịch."
+        },
+        {
+          "question": "Làm thế nào để hủy hoặc đặt lại lịch?",
+          "answer": "Vào 'Đặt lịch của tôi', chọn lịch hẹn và chọn hủy hoặc đặt lại lịch (có thể mất phí theo chính sách)."
+        },
+        {
+          "question": "Thanh toán qua ví hoạt động thế nào?",
+          "answer": "Bạn có thể nạp tiền vào ví qua thẻ tín dụng hoặc chuyển khoản và sử dụng số dư ví để thanh toán nhanh."
+        },
+        {
+          "question": "Nếu kỹ thuật viên không đến thì sao?",
+          "answer": "Vui lòng liên hệ hỗ trợ ngay qua đường dây nóng hoặc trò chuyện, chúng tôi sẽ giải quyết vấn đề."
+        },
+        {
+          "question": "Làm thế nào để được hoàn tiền?",
+          "answer": "Yêu cầu hoàn tiền được xử lý trong vòng 5-7 ngày làm việc; vui lòng liên hệ hỗ trợ kèm chi tiết đặt lịch."
         }
+      ]
+    },
+    "bookingIssues": {
+      "title": "Vấn đề đặt lịch",
+      "items": [
+        "Đặt lịch chưa được xác nhận",
+        "Kỹ thuật viên đến trễ",
+        "Nhận sai dịch vụ",
+        "Đã trừ tiền nhưng không có đặt lịch"
+      ],
+      "note": "Nếu bạn gặp bất kỳ vấn đề nào, hãy liên hệ ngay với đội ngũ hỗ trợ kèm theo mã đặt lịch của bạn."
+    },
+    "emergencyNote": "Đối với các vấn đề đặt lịch khẩn cấp xảy ra trong vòng 2 giờ tới, vui lòng liên hệ đường dây nóng ngay lập tức.",
+    "links": {
+      "privacyPolicy": {
+        "text": "Chính sách bảo mật",
+        "url": "/privacy-policy"
       },
-      "liveSupport": {
-        "title": "Hỗ trợ trực tiếp",
-        "content": "Đối với các vấn đề khẩn cấp, hỗ trợ qua trò chuyện trực tiếp có sẵn trong ứng dụng trong giờ làm việc (9:00 - 18:00, Thứ Hai đến Thứ Sáu)."
+      "termsOfService": {
+        "text": "Điều khoản dịch vụ",
+        "url": "/terms"
       }
     }
   }
