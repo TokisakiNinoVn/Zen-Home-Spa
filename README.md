@@ -1,11 +1,11 @@
-# Serene Spa - Wellness & Beauty Application
+# Zen Home Spa - Wellness & Beauty Application
 
-![Serene Spa](https://img.shields.io/badge/Serene-Spa-pink) 
+![Zen Home Spa](https://img.shields.io/badge/Serene-Spa-pink) 
 ![Next.js](https://img.shields.io/badge/Next.js-15.0-black) 
 ![React](https://img.shields.io/badge/React-18-blue) 
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-cyan)
 
-A modern, responsive website for Serene Spa mobile application - your ultimate wellness and beauty companion. This project showcases the spa booking application with multi-language support and beautiful UI/UX design.
+A modern, responsive website for Zen Home Spa mobile application - your ultimate wellness and beauty companion. This project showcases the spa booking application with multi-language support and beautiful UI/UX design.
 
 ## 🌟 Features
 
@@ -35,7 +35,7 @@ Visit the live website: [https://serene-spa-demo.vercel.app](https://serene-spa-
 
 ## 📱 Mobile App
 
-Download the Serene Spa mobile app:
+Download the Zen Home Spa mobile app:
 
 [![App Store](https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg)](https://apps.apple.com/app/serene-spa)
 [![Google Play](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=com.serenespa.app)
@@ -215,6 +215,6 @@ Please contact us:
 
 <div align="center">
 
-**Serene Spa** - *Your journey to wellness starts here* ✨
+**Zen Home Spa** - *Your journey to wellness starts here* ✨
 
 </div>

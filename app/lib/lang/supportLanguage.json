@@ -1,7 +1,7 @@
 {
   "en": {
     "title": "Support Center",
-    "description": "Welcome to the Serene Spa Support Center. Find help with your app-related queries, from booking issues to account management.",
+    "description": "Welcome to the Zen Home Spa Support Center. Find help with your app-related queries, from booking issues to account management.",
     "sections": {
       "contactUs": {
         "title": "Contact Us",
@@ -14,7 +14,7 @@
         "items": {
           "booking": {
             "title": "How do I book an appointment?",
-            "content": "You can book an appointment directly through the Serene Spa app by selecting your preferred service, date, and time."
+            "content": "You can book an appointment directly through the Zen Home Spa app by selecting your preferred service, date, and time."
           },
           "account": {
             "title": "How do I update my account information?",
@@ -34,7 +34,7 @@
   },
   "vi": {
     "title": "Trung tâm hỗ trợ",
-    "description": "Chào mừng bạn đến với Trung tâm Hỗ trợ Serene Spa. Tìm kiếm sự hỗ trợ cho các thắc mắc liên quan đến ứng dụng, từ vấn đề đặt lịch đến quản lý tài khoản.",
+    "description": "Chào mừng bạn đến với Trung tâm Hỗ trợ Zen Home Spa. Tìm kiếm sự hỗ trợ cho các thắc mắc liên quan đến ứng dụng, từ vấn đề đặt lịch đến quản lý tài khoản.",
     "sections": {
       "contactUs": {
         "title": "Liên hệ với chúng tôi",
@@ -47,7 +47,7 @@
         "items": {
           "booking": {
             "title": "Làm thế nào để đặt lịch hẹn?",
-            "content": "Bạn có thể đặt lịch hẹn trực tiếp qua ứng dụng Serene Spa bằng cách chọn dịch vụ, ngày và giờ mong muốn."
+            "content": "Bạn có thể đặt lịch hẹn trực tiếp qua ứng dụng Zen Home Spa bằng cách chọn dịch vụ, ngày và giờ mong muốn."
           },
           "account": {
             "title": "Làm thế nào để cập nhật thông tin tài khoản?",

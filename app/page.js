@@ -93,12 +93,12 @@ export default function Home() {
                     <div className="pt-12 px-6 h-full flex flex-col items-center justify-center">
                       <Image
                         src="/images/logos/spa_logo.png"
-                        alt="Serene Spa App"
+                        alt="Zen Home Spa App"
                         width={120}
                         height={120}
                         className="rounded-2xl mb-6 shadow-md"
                       />
-                      <h3 className="text-2xl font-bold text-gray-800 mb-4 text-center">Serene Spa</h3>
+                      <h3 className="text-2xl font-bold text-gray-800 mb-4 text-center">Zen Home Spa</h3>
                       <p className="text-gray-600 text-center mb-8">{t.appSlogan || "Your wellness journey starts here"}</p>
                       <div className="space-y-3 w-full">
                         <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-4 shadow-sm">
@@ -142,7 +142,7 @@ export default function Home() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-4">
-                {t.featuresTitle || "Why Choose Serene Spa?"}
+                {t.featuresTitle || "Why Choose Zen Home Spa?"}
               </h2>
               <p className="text-xl text-gray-600 max-w-2xl mx-auto">
                 {t.featuresSubtitle || "Experience the ultimate in wellness and relaxation with our premium features"}
@@ -184,7 +184,7 @@ export default function Home() {
               {t.ctaTitle || "Ready to Transform Your Wellness Journey?"}
             </h2>
             <p className="text-xl text-purple-100 mb-8 max-w-2xl mx-auto">
-              {t.ctaDescription || "Download the Serene Spa app today and experience premium wellness at your fingertips."}
+              {t.ctaDescription || "Download the Zen Home Spa app today and experience premium wellness at your fingertips."}
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">

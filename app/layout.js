@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Serene Spa",
-  description: "Serene Spa - Our privacy policy and how we protect your data.",
+  title: "Zen Home Spa",
+  description: "Zen Home Spa - Our privacy policy and how we protect your data.",
 };
 
 export default function RootLayout({ children }) {

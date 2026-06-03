@@ -1,7 +1,7 @@
 {
   "en": {
-    "title": "Welcome to Serene Spa Policies",
-    "description": "This website provides information about our terms of use, privacy policy, and customer support for users of the Serene Spa mobile app.",
+    "title": "Welcome to Zen Home Spa Policies",
+    "description": "This website provides information about our terms of use, privacy policy, and customer support for users of the Zen Home Spa mobile app.",
     "buttons": {
       "privacy": "Privacy Policy",
       "terms": "Terms of Service",
@@ -10,7 +10,7 @@
     "sections": {
       "commitment": {
         "title": "Our Commitment to Your Privacy",
-        "content": "At Serene Spa, we are dedicated to protecting your personal information and ensuring transparency in how we handle your data."
+        "content": "At Zen Home Spa, we are dedicated to protecting your personal information and ensuring transparency in how we handle your data."
       },
       "dataCollection": {
         "title": "Data We Collect",
@@ -39,8 +39,8 @@
     }
   },
   "vi": {
-    "title": "Chào mừng bạn đến với chính sách của Serene Spa",
-    "description": "Trang web này cung cấp thông tin về điều khoản sử dụng, chính sách bảo mật và hỗ trợ khách hàng cho người dùng ứng dụng di động Serene Spa.",
+    "title": "Chào mừng bạn đến với chính sách của Zen Home Spa",
+    "description": "Trang web này cung cấp thông tin về điều khoản sử dụng, chính sách bảo mật và hỗ trợ khách hàng cho người dùng ứng dụng di động Zen Home Spa.",
     "buttons": {
       "privacy": "Chính sách bảo mật",
       "terms": "Điều khoản sử dụng",
@@ -49,7 +49,7 @@
     "sections": {
       "commitment": {
         "title": "Cam kết bảo vệ quyền riêng tư của bạn",
-        "content": "Tại Serene Spa, chúng tôi cam kết bảo vệ thông tin cá nhân của bạn và đảm bảo sự minh bạch trong cách chúng tôi xử lý dữ liệu."
+        "content": "Tại Zen Home Spa, chúng tôi cam kết bảo vệ thông tin cá nhân của bạn và đảm bảo sự minh bạch trong cách chúng tôi xử lý dữ liệu."
       },
       "dataCollection": {
         "title": "Dữ liệu chúng tôi thu thập",

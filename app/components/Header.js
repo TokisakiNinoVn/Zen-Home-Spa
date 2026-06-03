@@ -44,12 +44,12 @@ export default function Header() {
       <Link href="/" className="flex items-center gap-3">
         <Image
           src="/images/logos/spa_logo.png"
-          alt="Serene Spa Logo"
+          alt="Zen Home Spa Logo"
           width={40}
           height={40}
           className="rounded-md"
         />
-        <span className="font-semibold text-gray-800 text-lg">Serene Spa</span>
+        <span className="font-semibold text-gray-800 text-lg">Zen Home Spa</span>
       </Link>
 
       {/* Desktop Navigation */}
