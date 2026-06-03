@@ -5,4 +5,5 @@ export const routers = {
   privacy: "/privacy",
   support: "/support",
   about: "/about",
+  contact: "/contact",
 };

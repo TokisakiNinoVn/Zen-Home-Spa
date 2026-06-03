@@ -1,0 +1,58 @@
+{
+  "en": {
+    "title": "Contact Us",
+    "intro": {
+      "title": "Get in Touch",
+      "content": "We’d love to hear from you! Whether you have a question about the app, need support, or just want to share feedback – feel free to reach out."
+    },
+    "contactInfo": {
+      "title": "Our Contact Information",
+      "email": "app.zenhome.spa@gmail.com",
+      "phone": "+84 123 456 789",
+      "address": "123 Spa Street, District 1, Ho Chi Minh City, Vietnam"
+    },
+    "contactForm": {
+      "title": "Send us a Message",
+      "nameLabel": "Your name",
+      "namePlaceholder": "Enter your full name",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "you@example.com",
+      "messageLabel": "Message",
+      "messagePlaceholder": "How can we help you?",
+      "submitButton": "Send Message",
+      "sending": "Sending...",
+      "success": "Thank you! Your message has been sent.",
+      "error": "Something went wrong. Please try again later."
+    },
+    "mapPlaceholder": "📍 Our location",
+    "lastUpdated": "Contact information is up to date as of June 2026"
+  },
+  "vi": {
+    "title": "Liên hệ",
+    "intro": {
+      "title": "Kết nối với chúng tôi",
+      "content": "Chúng tôi rất mong nhận được phản hồi từ bạn! Nếu bạn có câu hỏi về ứng dụng, cần hỗ trợ hoặc chỉ muốn chia sẻ ý kiến – hãy liên hệ ngay."
+    },
+    "contactInfo": {
+      "title": "Thông tin liên hệ",
+      "email": "app.zenhome.spa@gmail.com",
+      "phone": "+84 123 456 789",
+      "address": "123 Đường Spa, Quận 1, TP. Hồ Chí Minh, Việt Nam"
+    },
+    "contactForm": {
+      "title": "Gửi tin nhắn cho chúng tôi",
+      "nameLabel": "Họ và tên",
+      "namePlaceholder": "Nhập họ tên của bạn",
+      "emailLabel": "Địa chỉ email",
+      "emailPlaceholder": "bạn@example.com",
+      "messageLabel": "Nội dung",
+      "messagePlaceholder": "Chúng tôi có thể giúp gì cho bạn?",
+      "submitButton": "Gửi tin nhắn",
+      "sending": "Đang gửi...",
+      "success": "Cảm ơn bạn! Tin nhắn đã được gửi.",
+      "error": "Có lỗi xảy ra. Vui lòng thử lại sau."
+    },
+    "mapPlaceholder": "📍 Vị trí của chúng tôi",
+    "lastUpdated": "Thông tin liên hệ cập nhật tháng 6 năm 2026"
+  }
+}

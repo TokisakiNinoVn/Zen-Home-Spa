@@ -30,11 +30,13 @@ export default function Header() {
       privacy: "Chính sách bảo mật",
       support: "Hỗ trợ khách hàng",
       terms: "Điều khoản dịch vụ",
+      contact: "Liên hệ",
     },
     en: {
       privacy: "Privacy Policy",
       support: "Support",
       terms: "Terms of Service",
+      contact: "Contact",
     },
   }[lang || "vi"];
 
@@ -78,6 +80,14 @@ export default function Header() {
           {t.terms}
         </Link>
 
+        <Link
+          href="/contact"
+          className="flex items-center gap-2 text-gray-600 hover:text-blue-600 transition-colors"
+        >
+          <i className="fa-solid fa-phone text-blue-500"></i>
+          {t.contact}
+        </Link>
+
         <LanguageSwitcher />
       </nav>
 
@@ -118,7 +128,15 @@ export default function Header() {
               onClick={toggleMenu}
             >
               <i className="fa-solid fa-file-contract text-blue-500"></i>
-              {t.terms}
+              {t.contact}
+            </Link>
+            <Link
+              href="/terms"
+              className="flex items-center gap-2 py-2 text-gray-600 hover:text-blue-600 transition-colors"
+              onClick={toggleMenu}
+            >
+              <i className="fa-solid fa-phone text-blue-500"></i>
+              {t.contact}
             </Link>
 
             <div className="py-2">
