@@ -1,80 +1,168 @@
 {
   "en": {
-    "title": "Welcome to Zen Home Spa Policies",
-    "description": "This website provides information about our terms of use, privacy policy, and customer support for users of the Zen Home Spa mobile app.",
-    "buttons": {
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Service",
-      "support": "Support"
+    "title": "Privacy Policy",
+    "intro": {
+      "title": "Introduction",
+      "content": "Zen Home Spa is a mobile application that connects customers with independent spa professionals who provide at-home services. To enable booking and matching functionality, we collect and process certain personal information. This Privacy Policy explains what data we collect, how it is used, how it may be shared, and the rights you may have regarding your information."
     },
-    "sections": {
-      "commitment": {
-        "title": "Our Commitment to Your Privacy",
-        "content": "At Zen Home Spa, we are dedicated to protecting your personal information and ensuring transparency in how we handle your data."
+    "dataCollection": {
+      "title": "Data We Collect",
+      "userData": {
+        "title": "👤 User Data",
+        "items": [
+          "Full name",
+          "Phone number",
+          "Email address",
+          "Location information (service address provided by user)"
+        ]
       },
-      "dataCollection": {
-        "title": "Data We Collect",
-        "content": "We collect information you provide during account creation, appointment bookings, or when contacting support. This includes your name, email, phone number, and payment details."
+      "paymentData": {
+        "title": "💳 Payment Data",
+        "items": [
+          "Wallet balance",
+          "Transaction history",
+          "Payment status (we do not store full card details; payments are processed via third-party secure payment providers)"
+        ]
       },
-      "dataUsage": {
-        "title": "How We Use Your Data",
-        "content": "Your information is used to process bookings, personalize your experience, improve our services, and communicate updates or promotions. We do not share your data with third parties without your consent, except as required by law."
-      },
-      "dataProtection": {
-        "title": "Data Protection Measures",
-        "content": "We employ industry-standard security practices, including encryption and secure servers, to safeguard your data. While we strive to protect your information, no system is entirely risk-free, so we recommend using strong passwords."
-      },
-      "cookies": {
-        "title": "Cookies and Tracking",
-        "content": "Our app uses cookies to enhance user experience and analyze usage patterns. You can manage cookie preferences through your device settings."
-      },
-      "yourRights": {
-        "title": "Your Rights",
-        "content": "You have the right to access, update, or delete your personal information. For any privacy concerns or to exercise these rights, contact us at {support_email}."
-      },
-      "updates": {
-        "title": "Policy Updates",
-        "content": "We may update this privacy policy periodically. Changes will be posted on this page, and we encourage you to review it regularly."
+      "deviceData": {
+        "title": "📱 Device Data",
+        "items": [
+          "Device information (operating system version, device model)",
+          "App logs and crash reports (for performance and stability improvement)"
+        ]
       }
-    }
+    },
+    "dataUsage": {
+      "title": "How We Use Your Data",
+      "items": [
+        "To create, manage, and process bookings",
+        "To match users with suitable available technicians",
+        "To process payments through in-app wallet and payment providers",
+        "To send service-related notifications (booking confirmation, reminders, status updates)",
+        "To improve app performance, service quality, and user support"
+      ]
+    },
+    "dataSharing": {
+      "title": "Data Sharing",
+      "content": "We share your information only when necessary to provide the services you request.",
+      "sharedWithTechnicians": "Shared with technicians: your name, service address, and booking details for service fulfillment purposes.",
+      "notSold": "We do not sell your personal information to any third parties.",
+      "thirdPartySharing": "We do not share your personal data with third parties for unrelated purposes without your consent, except where required to operate the service or comply with legal obligations."
+    },
+    "dataStorage": {
+      "title": "Data Storage & Security",
+      "items": [
+        "We use commercially reasonable security measures, including encryption (TLS/SSL), to protect your data",
+        "Access to personal data is restricted to authorized personnel only",
+        "We retain personal data for as long as your account is active. After account deletion, certain data may be retained for a limited period (up to 12 months) for legal, regulatory, or operational purposes such as transaction records. You may request earlier deletion where applicable."
+      ]
+    },
+    "userRights": {
+      "title": "Your Rights",
+      "items": [
+        "Request access to your personal data",
+        "Request correction of inaccurate or incomplete information",
+        "Request deletion of your personal data, subject to legal obligations",
+        "Delete your account through the app settings"
+      ],
+      "howToExercise": "To exercise these rights, please contact us at {email}."
+    },
+    "locationUsage": {
+      "title": "Location Usage",
+      "content": "We request access to location data to help assign nearby technicians and estimate arrival times. Location data is only used during active booking sessions and is not continuously tracked in the background."
+    },
+    "childrenPolicy": {
+      "title": "Children's Privacy",
+      "content": "Zen Home Spa is not intended for users under the age of 13. We do not knowingly collect personal data from children under 13. If such data is discovered, we will take steps to delete it promptly."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "content": "If you have any questions about this Privacy Policy or how your data is handled, please contact us at:",
+      "email": "app.zenhome.spa@gmail.com"
+    },
+    "lastUpdated": "Last updated: June 1, 2026"
   },
   "vi": {
-    "title": "Chào mừng bạn đến với chính sách của Zen Home Spa",
-    "description": "Trang web này cung cấp thông tin về điều khoản sử dụng, chính sách bảo mật và hỗ trợ khách hàng cho người dùng ứng dụng di động Zen Home Spa.",
-    "buttons": {
-      "privacy": "Chính sách bảo mật",
-      "terms": "Điều khoản sử dụng",
-      "support": "Hỗ trợ"
+    "title": "Chính sách bảo mật",
+    "intro": {
+      "title": "Giới thiệu",
+      "content": "Zen Home Spa là ứng dụng di động kết nối khách hàng với các kỹ thuật viên spa độc lập cung cấp dịch vụ tại nhà. Để hỗ trợ chức năng đặt lịch và kết nối dịch vụ, chúng tôi thu thập và xử lý một số thông tin cá nhân. Chính sách này giải thích dữ liệu chúng tôi thu thập, cách sử dụng, chia sẻ và các quyền của bạn liên quan đến thông tin cá nhân."
     },
-    "sections": {
-      "commitment": {
-        "title": "Cam kết bảo vệ quyền riêng tư của bạn",
-        "content": "Tại Zen Home Spa, chúng tôi cam kết bảo vệ thông tin cá nhân của bạn và đảm bảo sự minh bạch trong cách chúng tôi xử lý dữ liệu."
+    "dataCollection": {
+      "title": "Dữ liệu chúng tôi thu thập",
+      "userData": {
+        "title": "👤 Dữ liệu người dùng",
+        "items": [
+          "Họ và tên",
+          "Số điện thoại",
+          "Địa chỉ email",
+          "Thông tin vị trí (địa chỉ do người dùng cung cấp)"
+        ]
       },
-      "dataCollection": {
-        "title": "Dữ liệu chúng tôi thu thập",
-        "content": "Chúng tôi thu thập thông tin bạn cung cấp khi tạo tài khoản, đặt lịch hẹn hoặc liên hệ hỗ trợ. Thông tin này bao gồm tên, email, số điện thoại và chi tiết thanh toán."
+      "paymentData": {
+        "title": "💳 Dữ liệu thanh toán",
+        "items": [
+          "Số dư ví",
+          "Lịch sử giao dịch",
+          "Trạng thái thanh toán (chúng tôi không lưu thông tin thẻ đầy đủ; thanh toán được xử lý qua cổng thanh toán bên thứ ba)"
+        ]
       },
-      "dataUsage": {
-        "title": "Cách chúng tôi sử dụng dữ liệu của bạn",
-        "content": "Thông tin của bạn được sử dụng để xử lý đặt lịch, cá nhân hóa trải nghiệm, cải thiện dịch vụ và thông báo cập nhật hoặc khuyến mãi. Chúng tôi không chia sẻ dữ liệu của bạn với bên thứ ba mà không có sự đồng ý của bạn, trừ khi pháp luật yêu cầu."
-      },
-      "dataProtection": {
-        "title": "Biện pháp bảo vệ dữ liệu",
-        "content": "Chúng tôi áp dụng các biện pháp bảo mật tiêu chuẩn ngành, bao gồm mã hóa và máy chủ an toàn, để bảo vệ dữ liệu của bạn. Mặc dù chúng tôi nỗ lực bảo vệ thông tin, không có hệ thống nào hoàn toàn không có rủi ro, vì vậy chúng tôi khuyến nghị sử dụng mật khẩu mạnh."
-      },
-      "cookies": {
-        "title": "Cookies và theo dõi",
-        "content": "Ứng dụng của chúng tôi sử dụng cookies để nâng cao trải nghiệm người dùng và phân tích mô hình sử dụng. Bạn có thể quản lý tùy chọn cookie qua cài đặt thiết bị."
-      },
-      "yourRights": {
-        "title": "Quyền của bạn",
-        "content": "Bạn có quyền truy cập, cập nhật hoặc xóa thông tin cá nhân của mình. Để giải quyết các mối quan ngại về quyền riêng tư hoặc thực hiện các quyền này, liên hệ với chúng tôi tại {support_email}."
-      },
-      "updates": {
-        "title": "Cập nhật chính sách",
-        "content": "Chúng tôi có thể cập nhật chính sách bảo mật này định kỳ. Các thay đổi sẽ được đăng trên trang này, và chúng tôi khuyến khích bạn xem lại thường xuyên."
+      "deviceData": {
+        "title": "📱 Dữ liệu thiết bị",
+        "items": [
+          "Thông tin thiết bị (phiên bản hệ điều hành, model thiết bị)",
+          "Nhật ký ứng dụng và báo cáo lỗi (để cải thiện hiệu năng và độ ổn định)"
+        ]
       }
-    }
+    },
+    "dataUsage": {
+      "title": "Cách chúng tôi sử dụng dữ liệu",
+      "items": [
+        "Tạo, quản lý và xử lý đặt lịch",
+        "Kết nối người dùng với kỹ thuật viên phù hợp và gần nhất",
+        "Xử lý thanh toán qua ví trong ứng dụng và cổng thanh toán",
+        "Gửi thông báo liên quan đến dịch vụ (xác nhận, nhắc lịch, cập nhật trạng thái)",
+        "Cải thiện chất lượng dịch vụ, hiệu suất ứng dụng và hỗ trợ người dùng"
+      ]
+    },
+    "dataSharing": {
+      "title": "Chia sẻ dữ liệu",
+      "content": "Chúng tôi chỉ chia sẻ thông tin trong phạm vi cần thiết để cung cấp dịch vụ bạn yêu cầu.",
+      "sharedWithTechnicians": "Chia sẻ với kỹ thuật viên: tên, địa chỉ dịch vụ và thông tin đặt lịch nhằm mục đích thực hiện dịch vụ.",
+      "notSold": "Chúng tôi không bán dữ liệu cá nhân của bạn cho bất kỳ bên thứ ba nào.",
+      "thirdPartySharing": "Ngoại trừ phục vụ việc cung cấp dịch vụ hoặc nghĩa vụ pháp lý, chúng tôi không chia sẻ dữ liệu cá nhân của bạn nếu không có sự đồng ý của bạn."
+    },
+    "dataStorage": {
+      "title": "Lưu trữ & Bảo mật dữ liệu",
+      "items": [
+        "Áp dụng các biện pháp bảo mật hợp lý như mã hóa TLS/SSL để bảo vệ dữ liệu",
+        "Chỉ nhân sự được ủy quyền mới có quyền truy cập dữ liệu cá nhân",
+        "Dữ liệu được lưu trong thời gian tài khoản còn hoạt động. Sau khi xóa tài khoản, một số dữ liệu có thể được lưu tối đa 12 tháng nhằm mục đích pháp lý, vận hành hoặc lưu trữ giao dịch. Bạn có thể yêu cầu xóa sớm trong phạm vi cho phép."
+      ]
+    },
+    "userRights": {
+      "title": "Quyền của bạn",
+      "items": [
+        "Yêu cầu truy cập dữ liệu cá nhân",
+        "Yêu cầu chỉnh sửa thông tin không chính xác",
+        "Yêu cầu xóa dữ liệu cá nhân theo quy định pháp luật",
+        "Xóa tài khoản thông qua cài đặt ứng dụng"
+      ],
+      "howToExercise": "Để thực hiện các quyền này, vui lòng liên hệ: {email}."
+    },
+    "locationUsage": {
+      "title": "Sử dụng vị trí",
+      "content": "Chúng tôi sử dụng dữ liệu vị trí để hỗ trợ điều phối kỹ thuật viên gần nhất và ước tính thời gian di chuyển. Dữ liệu vị trí chỉ được sử dụng trong quá trình đặt lịch và không theo dõi liên tục trong nền."
+    },
+    "childrenPolicy": {
+      "title": "Quyền riêng tư của trẻ em",
+      "content": "Zen Home Spa không dành cho người dùng dưới 13 tuổi. Chúng tôi không cố ý thu thập dữ liệu cá nhân từ trẻ em dưới 13 tuổi. Nếu phát hiện dữ liệu như vậy, chúng tôi sẽ tiến hành xóa trong thời gian hợp lý."
+    },
+    "contact": {
+      "title": "Liên hệ",
+      "content": "Nếu bạn có câu hỏi về Chính sách bảo mật hoặc cách dữ liệu được xử lý, vui lòng liên hệ:",
+      "email": "app.zenhome.spa@gmail.com"
+    },
+    "lastUpdated": "Cập nhật lần cuối: 01 tháng 6, 2026"
   }
 }

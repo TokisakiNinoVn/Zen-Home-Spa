@@ -59,7 +59,7 @@
     "links": {
       "privacyPolicy": {
         "text": "Privacy Policy",
-        "url": "/privacy-policy"
+        "url": "/privacy"
       },
       "termsOfService": {
         "text": "Terms of Service",
@@ -127,7 +127,7 @@
     "links": {
       "privacyPolicy": {
         "text": "Chính sách bảo mật",
-        "url": "/privacy-policy"
+        "url": "/privacy"
       },
       "termsOfService": {
         "text": "Điều khoản dịch vụ",
