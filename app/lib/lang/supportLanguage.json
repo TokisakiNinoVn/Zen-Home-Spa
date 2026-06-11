@@ -12,13 +12,13 @@
       },
       "hotline": {
         "label": "📞 Hotline",
-        "number": "+84 28 7300 1234"
+        "number": "+84 777 378 727"
       },
       "chat": {
         "label": "💬 In-app chat",
         "description": "Chat with us directly from the app"
       },
-      "hours": "⏱ Support hours: Mon–Sun, 8:00–22:00 GMT+7"
+      "hours": "⏱ Support hours: 24/7"
     },
     "quickHelp": {
       "title": "Quick Help / FAQ",
@@ -53,7 +53,7 @@
         "Wrong service received",
         "Payment deducted but no booking"
       ],
-      "note": "If you experience any of these issues, please reach out to our support team immediately with your booking ID."
+      "note": "If you encounter any of these issues, please contact our support team immediately."
     },
     "emergencyNote": "For urgent booking issues happening within the next 2 hours, please contact hotline immediately.",
     "links": {
@@ -80,13 +80,13 @@
       },
       "hotline": {
         "label": "📞 Đường dây nóng",
-        "number": "+84 28 7300 1234"
+        "number": "+84 777 378 727"
       },
       "chat": {
         "label": "💬 Trò chuyện trong ứng dụng",
         "description": "Trò chuyện trực tiếp với chúng tôi qua ứng dụng"
       },
-      "hours": "⏱ Giờ hỗ trợ: Thứ Hai–Chủ Nhật, 8:00–22:00 GMT+7"
+      "hours": "⏱ Giờ hỗ trợ: 24/7"
     },
     "quickHelp": {
       "title": "Trợ giúp nhanh / Câu hỏi thường gặp",
@@ -121,7 +121,7 @@
         "Nhận sai dịch vụ",
         "Đã trừ tiền nhưng không có đặt lịch"
       ],
-      "note": "Nếu bạn gặp bất kỳ vấn đề nào, hãy liên hệ ngay với đội ngũ hỗ trợ kèm theo mã đặt lịch của bạn."
+      "note": "Nếu bạn gặp bất kỳ vấn đề nào, hãy liên hệ ngay với chúng tôi."
     },
     "emergencyNote": "Đối với các vấn đề đặt lịch khẩn cấp xảy ra trong vòng 2 giờ tới, vui lòng liên hệ đường dây nóng ngay lập tức.",
     "links": {
