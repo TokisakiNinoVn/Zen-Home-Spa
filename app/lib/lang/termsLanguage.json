@@ -20,13 +20,15 @@
       "rescheduleNote": "Rescheduling is free if made more than 12 hours before the appointment. Within 12 hours, cancellation rules will apply."
     },
     "paymentsAndWallet": {
-      "title": "4. Payments & Wallet",
-      "content": "Payments are processed through the in-app wallet and/or supported third-party payment providers.",
-      "walletRules": [
-        "Wallet balance is intended for purchasing services within Zen Home Spa.",
-        "Wallet funds are non-withdrawable and cannot be exchanged for cash.",
-        "Wallet cannot be used for unrelated digital goods or services outside the platform.",
-        "We do not store full payment card details; all payment processing is handled by secure third-party providers."
+    "title": "4. Payments & Wallet",
+    "content": "Users may use their wallet balance within the application to pay for services available on the Zen Home Spa platform.",
+    "walletRules": [
+      "Wallet balances are generated from valid transactions conducted on the platform.",
+      "Users may submit a request to withdraw their wallet balance to a registered bank account.",
+      "Withdrawal requests are reviewed and processed by the Zen Home Spa administration team in accordance with internal procedures.",
+      "Processing times for withdrawal requests may vary depending on the circumstances.",
+      "Zen Home Spa reserves the right to reject or temporarily suspend withdrawal requests that are suspected of fraud, violate these Terms of Use, or require additional verification.",
+      "Users are responsible for providing accurate payment and banking information when submitting a withdrawal request."
       ]
     },
     "technicianPolicy": {
@@ -105,14 +107,16 @@
     },
     "paymentsAndWallet": {
       "title": "4. Thanh toán & Ví",
-      "content": "Thanh toán được thực hiện thông qua ví trong ứng dụng và/hoặc cổng thanh toán bên thứ ba.",
+      "content": "Người dùng có thể sử dụng số dư ví trong ứng dụng để thanh toán các dịch vụ trên nền tảng Zen Home Spa.",
       "walletRules": [
-        "Số dư ví chỉ dùng để thanh toán dịch vụ trong ứng dụng Zen Home Spa.",
-        "Số dư ví không thể rút thành tiền mặt.",
-        "Không thể sử dụng ví cho các dịch vụ hoặc sản phẩm ngoài nền tảng.",
-        "Chúng tôi không lưu thông tin thẻ; thanh toán được xử lý bởi bên thứ ba an toàn."
-      ]
-    },
+        "Số dư ví được hình thành từ các giao dịch hợp lệ trên nền tảng.",
+        "Người dùng có thể gửi yêu cầu rút số dư ví về tài khoản ngân hàng đã đăng ký.",
+        "Yêu cầu rút tiền sẽ được đội ngũ quản trị viên xem xét và xử lý theo quy trình nội bộ của Zen Home Spa.",
+        "Thời gian xử lý yêu cầu rút tiền có thể khác nhau tùy từng trường hợp.",
+        "Zen Home Spa có quyền từ chối hoặc tạm hoãn xử lý các yêu cầu rút tiền có dấu hiệu gian lận, vi phạm điều khoản sử dụng hoặc cần xác minh bổ sung.",
+        "Người dùng chịu trách nhiệm cung cấp chính xác thông tin nhận tiền khi gửi yêu cầu rút tiền."
+        ]
+      },
     "technicianPolicy": {
       "title": "5. Chính sách kỹ thuật viên độc lập",
       "content": "Kỹ thuật viên trên nền tảng là các nhà cung cấp dịch vụ độc lập, không phải nhân viên của Zen Home Spa. Họ được xác minh trước khi hoạt động. Chúng tôi không chịu trách nhiệm trực tiếp cho hành vi hoặc chất lượng dịch vụ của từng kỹ thuật viên, nhưng có thể tiếp nhận phản hồi và thực hiện biện pháp xử lý phù hợp."
