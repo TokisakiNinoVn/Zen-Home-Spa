@@ -16,14 +16,6 @@
           "Location information (service address provided by user)"
         ]
       },
-      "paymentData": {
-        "title": "💳 Payment Data",
-        "items": [
-          "Wallet balance",
-          "Transaction history",
-          "Payment status (we do not store full card details; payments are processed via third-party secure payment providers)"
-        ]
-      },
       "deviceData": {
         "title": "📱 Device Data",
         "items": [
@@ -37,7 +29,7 @@
       "items": [
         "To create, manage, and process bookings",
         "To match users with suitable available technicians",
-        "To process payments through in-app wallet and payment providers",
+        "To coordinate appointments between customers and technicians",
         "To send service-related notifications (booking confirmation, reminders, status updates)",
         "To improve app performance, service quality, and user support"
       ]
@@ -54,7 +46,7 @@
       "items": [
         "We use commercially reasonable security measures, including encryption (TLS/SSL), to protect your data",
         "Access to personal data is restricted to authorized personnel only",
-        "We retain personal data for as long as your account is active. After account deletion, certain data may be retained for a limited period (up to 12 months) for legal, regulatory, or operational purposes such as transaction records. You may request earlier deletion where applicable."
+        "We retain personal data for as long as your account is active. After account deletion, certain data may be retained for a limited period (up to 12 months) for legal, security, or operational purposes."
       ]
     },
     "userRights": {
@@ -99,14 +91,6 @@
           "Thông tin vị trí (địa chỉ do người dùng cung cấp)"
         ]
       },
-      "paymentData": {
-        "title": "💳 Dữ liệu thanh toán",
-        "items": [
-          "Số dư ví",
-          "Lịch sử giao dịch",
-          "Trạng thái thanh toán (chúng tôi không lưu thông tin thẻ đầy đủ; thanh toán được xử lý qua cổng thanh toán bên thứ ba)"
-        ]
-      },
       "deviceData": {
         "title": "📱 Dữ liệu thiết bị",
         "items": [
@@ -120,7 +104,7 @@
       "items": [
         "Tạo, quản lý và xử lý đặt lịch",
         "Kết nối người dùng với kỹ thuật viên phù hợp và gần nhất",
-        "Xử lý thanh toán qua ví trong ứng dụng và cổng thanh toán",
+        "Điều phối lịch hẹn giữa khách hàng và kỹ thuật viên",
         "Gửi thông báo liên quan đến dịch vụ (xác nhận, nhắc lịch, cập nhật trạng thái)",
         "Cải thiện chất lượng dịch vụ, hiệu suất ứng dụng và hỗ trợ người dùng"
       ]
@@ -137,7 +121,7 @@
       "items": [
         "Áp dụng các biện pháp bảo mật hợp lý như mã hóa TLS/SSL để bảo vệ dữ liệu",
         "Chỉ nhân sự được ủy quyền mới có quyền truy cập dữ liệu cá nhân",
-        "Dữ liệu được lưu trong thời gian tài khoản còn hoạt động. Sau khi xóa tài khoản, một số dữ liệu có thể được lưu tối đa 12 tháng nhằm mục đích pháp lý, vận hành hoặc lưu trữ giao dịch. Bạn có thể yêu cầu xóa sớm trong phạm vi cho phép."
+        "Dữ liệu được lưu trong thời gian tài khoản còn hoạt động. Sau khi xóa tài khoản, một số dữ liệu có thể được lưu tối đa 12 tháng nhằm mục đích pháp lý, bảo mật hoặc vận hành hệ thống."
       ]
     },
     "userRights": {

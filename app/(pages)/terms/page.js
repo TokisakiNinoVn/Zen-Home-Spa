@@ -75,22 +75,6 @@ export default function TermsPage() {
             </p>
           </section>
 
-          {/* Payments & Wallet */}
-          <section className="mb-10">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-              {t.paymentsAndWallet.title}
-            </h2>
-
-            <p className="text-gray-800 mb-3 leading-relaxed">
-              {t.paymentsAndWallet.content}
-            </p>
-
-            <ul className="list-disc pl-6 space-y-1 text-gray-800">
-              {t.paymentsAndWallet.walletRules.map((rule, idx) => (
-                <li key={idx}>{rule}</li>
-              ))}
-            </ul>
-          </section>
 
           {/* Technician Policy */}
           <section className="mb-10">
@@ -120,27 +104,6 @@ export default function TermsPage() {
 
             <p className="text-gray-700 leading-relaxed">
               {t.liability.exception}
-            </p>
-          </section>
-
-          {/* Refund Policy */}
-          <section className="mb-10">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-              {t.refundPolicy.title}
-            </h2>
-
-            <p className="text-gray-800 mb-3 leading-relaxed">
-              {t.refundPolicy.content}
-            </p>
-
-            <ul className="list-disc pl-6 space-y-1 text-gray-800 mb-3">
-              {t.refundPolicy.conditions.map((condition, idx) => (
-                <li key={idx}>{condition}</li>
-              ))}
-            </ul>
-
-            <p className="text-gray-700">
-              {t.refundPolicy.processingTime}
             </p>
           </section>
 

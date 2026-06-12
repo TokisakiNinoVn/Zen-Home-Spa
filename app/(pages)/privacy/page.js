@@ -63,17 +63,6 @@ export default function PrivacyPage() {
 
           <div>
             <h3 className="font-semibold text-lg text-gray-900 mb-2">
-              {t.dataCollection.paymentData.title}
-            </h3>
-            <ul className="list-disc pl-6 space-y-1 text-gray-800">
-              {t.dataCollection.paymentData.items.map((item, idx) => (
-                <li key={idx}>{item}</li>
-              ))}
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="font-semibold text-lg text-gray-900 mb-2">
               {t.dataCollection.deviceData.title}
             </h3>
             <ul className="list-disc pl-6 space-y-1 text-gray-800">

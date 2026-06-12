@@ -3,7 +3,7 @@
     "title": "Terms of Service",
     "serviceDescription": {
       "title": "1. Service Description",
-      "content": "Zen Home Spa is a marketplace platform that connects customers with independent spa professionals. Services are performed at the customer's chosen location. We provide booking, scheduling, and payment facilitation services but do not directly provide or employ service providers."
+      "content": "Zen Home Spa is a marketplace platform that connects customers with independent spa professionals. Services are performed at the customer's chosen location. We provide booking and scheduling services but do not directly provide or employ service providers."
     },
     "userAccounts": {
       "title": "2. User Accounts",
@@ -13,23 +13,11 @@
       "title": "3. Booking & Cancellation Policy",
       "content": "Bookings are confirmed when both the customer and technician accept the appointment. Cancellation rules apply as follows:",
       "cancellationTerms": [
-        "Cancellation more than 24 hours before appointment: full refund to wallet",
-        "Cancellation within 24 hours before appointment: 50% refund to wallet, 50% service fee applies",
-        "No-show or cancellation after appointment start time: no refund"
+        "Cancellation more than 24 hours before appointment",
+        "Cancellation within 24 hours before appointment",
+        "No-show or cancellation after appointment start time"
       ],
-      "rescheduleNote": "Rescheduling is free if made more than 12 hours before the appointment. Within 12 hours, cancellation rules will apply."
-    },
-    "paymentsAndWallet": {
-    "title": "4. Payments & Wallet",
-    "content": "Users may use their wallet balance within the application to pay for services available on the Zen Home Spa platform.",
-    "walletRules": [
-      "Wallet balances are generated from valid transactions conducted on the platform.",
-      "Users may submit a request to withdraw their wallet balance to a registered bank account.",
-      "Withdrawal requests are reviewed and processed by the Zen Home Spa administration team in accordance with internal procedures.",
-      "Processing times for withdrawal requests may vary depending on the circumstances.",
-      "Zen Home Spa reserves the right to reject or temporarily suspend withdrawal requests that are suspected of fraud, violate these Terms of Use, or require additional verification.",
-      "Users are responsible for providing accurate payment and banking information when submitting a withdrawal request."
-      ]
+      "rescheduleNote": "Rescheduling is available if made more than 12 hours before the appointment. Within 12 hours, cancellation rules may apply."
     },
     "technicianPolicy": {
       "title": "5. Independent Technician Policy",
@@ -43,53 +31,42 @@
         "Service quality disputes between customers and technicians (we may provide mediation support but are not a party to the service contract)",
         "Temporary service interruptions, system downtime, or technical issues outside our reasonable control"
       ],
-      "exception": "We remain responsible for issues directly caused by our platform, such as booking system errors or payment processing failures."
+      "exception": "We remain responsible for issues directly caused by our platform, such as booking system errors or technical failures."
     },
-    "refundPolicy": {
-      "title": "7. Refund Policy",
-      "content": "Refund eligibility depends on the following conditions:",
-      "conditions": [
-        "Cancellation more than 24 hours before appointment: full refund to wallet",
-        "Cancellation within 24 hours: partial refund (50%) to wallet",
-        "Technician no-show or service not delivered: full refund to wallet or original payment method upon request",
-        "Incorrect or incomplete service delivery: refunds may be issued after review, up to 100%"
-      ],
-      "processingTime": "Refund processing typically takes 5–7 business days. Refunds are usually credited to the wallet unless a bank refund is requested, which may take additional time."
-    },
+    
     "prohibitedBehavior": {
-      "title": "8. Prohibited Behavior",
+      "title": "7. Prohibited Behavior",
       "content": "Users are strictly prohibited from engaging in the following activities:",
       "behaviors": [
         "Creating fake or abusive bookings",
         "Harassing, threatening, or abusing technicians or support staff",
-        "Attempting to manipulate wallet balances or commit fraudulent transactions",
-        "Using stolen payment methods or engaging in chargeback abuse",
+        "Providing false information or impersonating another person",
+        "Abusing platform features or attempting to manipulate bookings",
         "Creating multiple accounts to exploit promotions or system rules"
       ],
-      "consequence": "Violations may result in account suspension, forfeiture of wallet balance, and legal action where applicable."
+      "consequence": "Violations may result in account suspension and legal action where applicable."
     },
     "termination": {
-      "title": "9. Termination",
-      "content": "You may delete your account at any time through the app settings. We may suspend or terminate accounts if we detect violations of these Terms, fraudulent activity, or prolonged inactivity (typically over 12 months). Upon termination, remaining wallet balances may be forfeited where legally permitted."
+      "title": "8. Termination",
+      "content": "You may delete your account at any time through the app settings. We may suspend or terminate accounts if we detect violations of these Terms, fraudulent activity, or prolonged inactivity (typically over 12 months)."
     },
     "changesToTerms": {
-      "title": "10. Changes to Terms",
+      "title": "9. Changes to Terms",
       "content": "We may update these Terms from time to time. Material changes will be communicated via in-app notification or email at least 7 days before they take effect. Continued use of the service after updates become effective constitutes acceptance of the revised Terms."
     },
     "contact": {
-      "title": "11. Contact Us",
+      "title": "10. Contact Us",
       "content": "If you have any questions about these Terms, please contact our support team:",
       "email": "support@serenespa.com",
       "responseTime": "We aim to respond within 24–48 business hours."
     },
     "lastUpdated": "Last updated: June 1, 2026"
   },
-
   "vi": {
     "title": "Điều khoản sử dụng",
     "serviceDescription": {
       "title": "1. Mô tả dịch vụ",
-      "content": "Zen Home Spa là nền tảng kết nối khách hàng với các kỹ thuật viên spa độc lập. Dịch vụ được thực hiện tại địa điểm do khách hàng lựa chọn. Chúng tôi cung cấp chức năng đặt lịch, điều phối và hỗ trợ thanh toán nhưng không trực tiếp cung cấp dịch vụ hoặc tuyển dụng kỹ thuật viên."
+      "content": "Zen Home Spa là nền tảng kết nối khách hàng với các kỹ thuật viên spa độc lập. Dịch vụ được thực hiện tại địa điểm do khách hàng lựa chọn. Chúng tôi cung cấp chức năng đặt lịch và điều phối nhưng không trực tiếp cung cấp dịch vụ hoặc tuyển dụng kỹ thuật viên."
     },
     "userAccounts": {
       "title": "2. Tài khoản người dùng",
@@ -97,26 +74,14 @@
     },
     "bookingRules": {
       "title": "3. Chính sách đặt lịch & hủy lịch",
-      "content": "Lịch hẹn được xác nhận khi cả khách hàng và kỹ thuật viên đồng ý. Chính sách hủy áp dụng như sau:",
+      "content": "Lịch hẹn được xác nhận khi cả khách hàng và kỹ thuật viên đồng ý. Chính sách hủy lịch áp dụng như sau:",
       "cancellationTerms": [
-        "Hủy trước 24 giờ: hoàn toàn bộ vào ví",
-        "Hủy trong vòng 24 giờ: hoàn 50% vào ví, 50% phí dịch vụ",
-        "Không đến hoặc hủy sau giờ hẹn: không hoàn tiền"
+        "Hủy trước 24 giờ",
+        "Hủy trong vòng 24 giờ",
+        "Không đến hoặc hủy sau thời gian bắt đầu lịch hẹn"
       ],
-      "rescheduleNote": "Đổi lịch miễn phí nếu thực hiện trước 12 giờ. Trong vòng 12 giờ, áp dụng chính sách hủy tương ứng."
+      "rescheduleNote": "Đổi lịch có thể thực hiện trước thời gian hẹn hơn 12 giờ. Trong vòng 12 giờ, các quy định hủy lịch tương ứng có thể được áp dụng."
     },
-    "paymentsAndWallet": {
-      "title": "4. Thanh toán & Ví",
-      "content": "Người dùng có thể sử dụng số dư ví trong ứng dụng để thanh toán các dịch vụ trên nền tảng Zen Home Spa.",
-      "walletRules": [
-        "Số dư ví được hình thành từ các giao dịch hợp lệ trên nền tảng.",
-        "Người dùng có thể gửi yêu cầu rút số dư ví về tài khoản ngân hàng đã đăng ký.",
-        "Yêu cầu rút tiền sẽ được đội ngũ quản trị viên xem xét và xử lý theo quy trình nội bộ của Zen Home Spa.",
-        "Thời gian xử lý yêu cầu rút tiền có thể khác nhau tùy từng trường hợp.",
-        "Zen Home Spa có quyền từ chối hoặc tạm hoãn xử lý các yêu cầu rút tiền có dấu hiệu gian lận, vi phạm điều khoản sử dụng hoặc cần xác minh bổ sung.",
-        "Người dùng chịu trách nhiệm cung cấp chính xác thông tin nhận tiền khi gửi yêu cầu rút tiền."
-        ]
-      },
     "technicianPolicy": {
       "title": "5. Chính sách kỹ thuật viên độc lập",
       "content": "Kỹ thuật viên trên nền tảng là các nhà cung cấp dịch vụ độc lập, không phải nhân viên của Zen Home Spa. Họ được xác minh trước khi hoạt động. Chúng tôi không chịu trách nhiệm trực tiếp cho hành vi hoặc chất lượng dịch vụ của từng kỹ thuật viên, nhưng có thể tiếp nhận phản hồi và thực hiện biện pháp xử lý phù hợp."
@@ -129,41 +94,31 @@
         "Tranh chấp chất lượng dịch vụ giữa khách hàng và kỹ thuật viên (chúng tôi có thể hỗ trợ hòa giải nhưng không phải bên tham gia dịch vụ)",
         "Gián đoạn tạm thời hoặc lỗi kỹ thuật ngoài tầm kiểm soát hợp lý"
       ],
-      "exception": "Chúng tôi chịu trách nhiệm đối với các lỗi trực tiếp từ hệ thống của nền tảng như lỗi đặt lịch hoặc xử lý thanh toán."
+      "exception": "Chúng tôi chịu trách nhiệm đối với các lỗi trực tiếp từ hệ thống của nền tảng như lỗi đặt lịch hoặc lỗi kỹ thuật."
     },
-    "refundPolicy": {
-      "title": "7. Chính sách hoàn tiền",
-      "content": "Điều kiện hoàn tiền như sau:",
-      "conditions": [
-        "Hủy trước 24 giờ: hoàn toàn bộ vào ví",
-        "Hủy trong vòng 24 giờ: hoàn 50% vào ví",
-        "Kỹ thuật viên không đến: hoàn toàn bộ hoặc theo phương thức thanh toán ban đầu nếu yêu cầu",
-        "Dịch vụ sai hoặc không đầy đủ: hoàn tiền tùy theo kết quả kiểm tra, tối đa 100%"
-      ],
-      "processingTime": "Thời gian xử lý hoàn tiền thường từ 5–7 ngày làm việc. Có thể lâu hơn nếu hoàn qua ngân hàng."
-    },
+    
     "prohibitedBehavior": {
-      "title": "8. Hành vi bị cấm",
+      "title": "7. Hành vi bị cấm",
       "content": "Người dùng không được thực hiện các hành vi sau:",
       "behaviors": [
         "Đặt lịch giả hoặc lạm dụng hệ thống",
         "Quấy rối hoặc đe dọa kỹ thuật viên và nhân viên hỗ trợ",
-        "Gian lận ví hoặc giao dịch thanh toán",
-        "Sử dụng phương thức thanh toán gian lận hoặc chargeback sai mục đích",
+        "Cung cấp thông tin sai lệch hoặc giả mạo danh tính",
+        "Lạm dụng các tính năng của nền tảng hoặc thao túng việc đặt lịch",
         "Tạo nhiều tài khoản để trục lợi"
-      ],
-      "consequence": "Vi phạm có thể dẫn đến khóa tài khoản, mất số dư ví và xử lý theo quy định pháp luật."
+      ],  
+      "consequence": "Vi phạm có thể dẫn đến khóa tài khoản và xử lý theo quy định pháp luật."
     },
     "termination": {
-      "title": "9. Chấm dứt",
-      "content": "Bạn có thể xóa tài khoản bất kỳ lúc nào trong ứng dụng. Chúng tôi có thể chấm dứt tài khoản nếu phát hiện vi phạm, gian lận hoặc không hoạt động dài hạn (trên 12 tháng). Trong một số trường hợp, số dư ví có thể bị mất theo quy định."
+      "title": "8. Chấm dứt",
+      "content": "Bạn có thể xóa tài khoản bất kỳ lúc nào trong ứng dụng. Chúng tôi có thể chấm dứt tài khoản nếu phát hiện vi phạm, gian lận hoặc không hoạt động dài hạn (trên 12 tháng)."
     },
     "changesToTerms": {
-      "title": "10. Thay đổi điều khoản",
+      "title": "9. Thay đổi điều khoản",
       "content": "Chúng tôi có thể cập nhật điều khoản theo thời gian. Thay đổi quan trọng sẽ được thông báo trước ít nhất 7 ngày qua ứng dụng hoặc email. Việc tiếp tục sử dụng dịch vụ đồng nghĩa với việc bạn đồng ý với các thay đổi."
     },
     "contact": {
-      "title": "11. Liên hệ",
+      "title": "10. Liên hệ",
       "content": "Nếu bạn có câu hỏi về điều khoản sử dụng, vui lòng liên hệ đội ngũ hỗ trợ:",
       "email": "app.zenhome.spa@gmail.com",
       "responseTime": "Chúng tôi phản hồi trong vòng 24–48 giờ làm việc."

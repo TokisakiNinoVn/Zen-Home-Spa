@@ -29,19 +29,19 @@
         },
         {
           "question": "How do I cancel or reschedule?",
-          "answer": "Go to 'My Bookings', select the booking and choose cancel or reschedule (fees may apply based on policy)."
-        },
-        {
-          "question": "How does wallet payment work?",
-          "answer": "You can top up your wallet via credit card or bank transfer and use wallet balance for fast checkout."
+          "answer": "Go to 'My Bookings', select the booking and choose cancel or reschedule according to the service policy."
         },
         {
           "question": "What if technician doesn't show up?",
           "answer": "Please contact support immediately through hotline or chat, we will resolve the issue."
         },
         {
-          "question": "How do I get a refund?",
-          "answer": "Refund requests are processed within 5-7 business days; please contact support with your booking details."
+          "question": "How do I update my account information?",
+          "answer": "You can update your profile information from the account settings section within the app."
+        },
+        {
+          "question": "How do I contact support?",
+          "answer": "You can contact us through email for assistance."
         }
       ]
     },
@@ -51,7 +51,7 @@
         "Booking not confirmed",
         "Technician delayed",
         "Wrong service received",
-        "Payment deducted but no booking"
+        "Unable to create or update booking"
       ],
       "note": "If you encounter any of these issues, please contact our support team immediately."
     },
@@ -97,20 +97,21 @@
         },
         {
           "question": "Làm thế nào để hủy hoặc đặt lại lịch?",
-          "answer": "Vào 'Đặt lịch của tôi', chọn lịch hẹn và chọn hủy hoặc đặt lại lịch (có thể mất phí theo chính sách)."
-        },
-        {
-          "question": "Thanh toán qua ví hoạt động thế nào?",
-          "answer": "Bạn có thể nạp tiền vào ví qua thẻ tín dụng hoặc chuyển khoản và sử dụng số dư ví để thanh toán nhanh."
+          "answer": "Vào 'Lịch sử', chọn lịch hẹn và chọn hủy hoặc đổi lịch theo chính sách dịch vụ."
         },
         {
           "question": "Nếu kỹ thuật viên không đến thì sao?",
           "answer": "Vui lòng liên hệ hỗ trợ ngay qua đường dây nóng hoặc trò chuyện, chúng tôi sẽ giải quyết vấn đề."
         },
         {
-          "question": "Làm thế nào để được hoàn tiền?",
-          "answer": "Yêu cầu hoàn tiền được xử lý trong vòng 5-7 ngày làm việc; vui lòng liên hệ hỗ trợ kèm chi tiết đặt lịch."
+          "question": "Làm thế nào để cập nhật thông tin tài khoản?",
+          "answer": "Bạn có thể cập nhật thông tin cá nhân từ phần cài đặt tài khoản trong ứng dụng."
+        },
+        {
+          "question": "Làm thế nào để liên hệ hỗ trợ?",
+          "answer": "Bạn có thể liên hệ với chúng tôi qua email để được hỗ trợ."
         }
+        
       ]
     },
     "bookingIssues": {
@@ -119,7 +120,7 @@
         "Đặt lịch chưa được xác nhận",
         "Kỹ thuật viên đến trễ",
         "Nhận sai dịch vụ",
-        "Đã trừ tiền nhưng không có đặt lịch"
+        "Không thể tạo hoặc cập nhật lịch hẹn"
       ],
       "note": "Nếu bạn gặp bất kỳ vấn đề nào, hãy liên hệ ngay với chúng tôi."
     },
