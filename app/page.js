@@ -13,14 +13,12 @@ import { information } from "@/app/services/infomation.service";
 export default function Home() {
   const [info, setInfo] = useState(null);
   const [lang, setLang] = useState("en");
-  const [showComingSoon, setShowComingSoon] = useState(false); // State cho popup
 
   // Đọc ngôn ngữ từ localStorage
   useEffect(() => {
     const storedLang = localStorage.getItem("lang");
     if (storedLang) setLang(storedLang);
 
-    // Lắng nghe thay đổi từ localStorage (hoặc sự kiện từ LanguageSwitcher)
     const handleStorageChange = () => {
       const updatedLang = localStorage.getItem("lang");
       if (updatedLang) setLang(updatedLang);
@@ -38,21 +36,26 @@ export default function Home() {
 
     fetchInformation();
 
-    // cleanup
     return () => window.removeEventListener("storage", handleStorageChange);
   }, []);
 
-  // Hàm hiển thị popup và tự động ẩn sau 2.5 giây
-  const handleShowComingSoon = () => {
-    setShowComingSoon(true);
-    setTimeout(() => {
-      setShowComingSoon(false);
-    }, 2500);
+  // Handler mở App Store
+  const handleAppStore = () => {
+    window.open("https://apps.apple.com/vn/app/zen-home-spa/id6761649798", "_blank");
   };
 
-  // Lấy dữ liệu ngôn ngữ từ JSON (có thể thêm key "comingSoon" vào file JSON)
+  // Handler tải APK
+  const handleApkDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/ZehHomeSpa-v1.1.46-release.apk";
+    link.download = "ZehHomeSpa-v1.1.46-release.apk";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
+  // Lấy dữ liệu ngôn ngữ từ JSON
   const t = homeLanguage[lang] || homeLanguage["en"];
-  const comingSoonText = t.comingSoon || (lang === "vi" ? "Sẽ sớm có" : "Coming soon");
 
   return (
     <>
@@ -75,7 +78,7 @@ export default function Home() {
                 {/* App Download Buttons */}
                 <div className="flex flex-col sm:flex-row gap-4 mb-12 justify-center lg:justify-start">
                   <button 
-                    onClick={handleShowComingSoon}
+                    onClick={handleAppStore}
                     className="bg-black text-white px-8 py-4 rounded-2xl hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center justify-center gap-3 min-w-[200px]"
                   >
                     <i className="fa-brands fa-apple text-2xl"></i>
@@ -86,7 +89,7 @@ export default function Home() {
                   </button>
                   
                   <button 
-                    onClick={handleShowComingSoon}
+                    onClick={handleApkDownload}
                     className="bg-black text-white px-8 py-4 rounded-2xl hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center justify-center gap-3 min-w-[200px]"
                   >
                     <i className="fa-brands fa-google-play text-xl"></i>
@@ -102,7 +105,6 @@ export default function Home() {
 
               {/* Right Content - App Mockup (giữ nguyên) */}
               <div className="flex-1 flex justify-center">
-                {/* ... nội dung mockup không đổi ... */}
                 <div className="relative">
                   <div className="w-80 h-[600px] bg-gradient-to-b from-purple-100 to-pink-100 rounded-[3rem] border-[14px] border-gray-800 shadow-2xl relative overflow-hidden">
                     <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-40 h-6 bg-gray-800 rounded-b-2xl"></div>
@@ -154,7 +156,6 @@ export default function Home() {
 
         {/* Features Section (giữ nguyên) */}
         <section className="py-20 px-4 bg-white/50">
-          {/* ... nội dung không đổi ... */}
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -165,7 +166,6 @@ export default function Home() {
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {/* ... 3 feature cards ... */}
               <div className="group p-8 bg-white rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100">
                 <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                   <i className="fa-solid fa-spa text-2xl text-white"></i>
@@ -203,7 +203,7 @@ export default function Home() {
             {/* App Download Buttons trong CTA */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
               <button 
-                onClick={handleShowComingSoon}
+                onClick={handleAppStore}
                 className="bg-white text-purple-600 px-8 py-4 rounded-2xl hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center justify-center gap-3 min-w-[200px] font-semibold"
               >
                 <i className="fa-brands fa-apple text-2xl"></i>
@@ -214,7 +214,7 @@ export default function Home() {
               </button>
               
               <button 
-                onClick={handleShowComingSoon}
+                onClick={handleApkDownload}
                 className="bg-gray-900 text-white px-8 py-4 rounded-2xl hover:bg-black transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center justify-center gap-3 min-w-[200px] font-semibold"
               >
                 <i className="fa-brands fa-google-play text-xl"></i>
@@ -251,16 +251,6 @@ export default function Home() {
           </div>
         </section>
       </main>
-
-      {/* Popup thông báo "Coming soon" - hiển thị ở giữa phía dưới màn hình */}
-      {showComingSoon && (
-        <div className="fixed bottom-8 left-1/2 transform -translate-x-1/2 z-50 animate-fade-in-up">
-          <div className="bg-gray-900 text-white px-6 py-3 rounded-full shadow-xl text-base font-medium flex items-center gap-2 backdrop-blur-sm bg-opacity-90">
-            <i className="fa-regular fa-clock text-purple-300"></i>
-            <span>{comingSoonText}</span>
-          </div>
-        </div>
-      )}
 
       <Footer info={info} />
     </>
